@@ -17,10 +17,6 @@ terminal timeout 60
 ```
 timezone jst
 ```
-### ランニングコンフィグの保存
-```
-write memory
-```
 ### インタフェースコンフィグモードへの移行 
 ```
 interface GigaEthernet0.0
@@ -109,10 +105,6 @@ terminal timeout 60
 ```
 timezone jst
 ```
-### ランニングコンフィグの保存
-```
-write memory
-```
 ### インタフェースコンフィグモードへの移行 
 ```
 interface GigaEthernet0.0
@@ -181,6 +173,7 @@ router bgp 65521
 ```
 router-id 172.31.0.2
 ```
+
 --
 
 
