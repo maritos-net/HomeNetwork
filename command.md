@@ -29,7 +29,21 @@ interface GigaEthernet0.0
 ```
 no shutdown
 ```
+#### IPv4アドレスの付与
+```
+ip address 192.168.1.241/24
+```
+#### VRRP有効化
+```
+vrrp enable
+```
+#### VRRPv2 IPv4 仮想アドレスの設定
+```
+vrrp 1 ip 192.168.1.254
+```
+
 --
+
 ## IX3110(2)
 グローバルコンフィグレーションモード移行
 ```
@@ -58,6 +72,18 @@ interface GigaEthernet0.0
 #### インターフェイス停止の解除
 ```
 no shutdown
+```
+#### IPv4アドレスの付与
+```
+ip address 192.168.1.242/24
+```
+#### VRRP有効化
+```
+vrrp enable
+```
+#### VRRPv2 IPv4 仮想アドレスの設定
+```
+vrrp 1 ip 192.168.1.254
 ```
 --
 
